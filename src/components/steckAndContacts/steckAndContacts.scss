@@ -1,0 +1,63 @@
+.icon_line{
+    display: flex;
+    align-items: center;
+    h4{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 29px;
+        color: #FFFFFF;
+        margin-right: 25px;
+        margin-bottom: 0px;
+    }
+    .icon_array{
+        display: flex;
+        align-items: center;
+        span{
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 24px;
+            color: #FFFFFF;
+        }
+    }
+    .link_icons{
+        cursor: pointer;
+    }
+    .icons{
+        margin-right: 20px;
+        display: flex;
+        img{
+            margin-right: 10px;
+        }
+        span{
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 24px;
+            color: #FFFFFF;
+        }
+    }
+    .steck_icon:last-child{
+        margin-right: 0px;
+    }
+}
+.icon_contacts_line{
+    margin-top: 20px;
+}
+.sac_wrp{
+    margin-bottom: 40px;
+}
+@media screen and (max-width: 375px) {
+    .icon_line{
+        display: block;
+        .icon_array{
+            display: block;
+            .icons{
+                margin: 20px 0;
+                .icon_img{
+                    width: 30px;
+                    height: 30px;
+                }
+            }
+        }
+    }
+}

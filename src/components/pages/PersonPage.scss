@@ -1,0 +1,41 @@
+@import '../../style/variables.scss';
+.header{
+    align-items: center;
+    display: flex;
+    margin: 0 auto;  
+    margin-bottom: 55px;
+    width: 1010px;
+    .route_back{
+        width: 64px;
+        height: 64px;
+        background: #F2F2F2;
+        border-radius: 50px;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        transition: all .3s ease-in-out;
+    }
+    .route_back:hover{
+        transform: translateX(-5px);
+    }
+}
+.person_page-wrpapper{
+    width: 1010px;
+    margin: 0 auto;
+}
+.person_page{
+    padding-bottom: 50px;
+}
+@media screen and (max-width: 375px) {
+    .header{
+        width: 100%;
+        .route_back{
+            display: none;
+        }
+    }
+    .person_page-wrpapper{
+        width: 100%;
+        padding: 0 25px;
+        margin: 0 auto;
+    }
+}
